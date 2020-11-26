@@ -23,10 +23,10 @@ st.title('Video Analysis with DNN & OpenCV 你好')
 # else:
 #     st.write('Not Clicked...')
 
-audio_file = open('MAGOGfriend_audio.mp4', 'rb')
-audio_bytes = audio_file.read()
+# audio_file = open('MAGOGfriend_audio.mp4', 'rb')
+# audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format='audio/mp4')
+# st.audio(audio_bytes, format='audio/mp4')
 
 
 st.success('Success~')
